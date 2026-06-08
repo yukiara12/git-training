@@ -61,7 +61,7 @@
 # library() はRを起動するたびに実行する必要があります。
 
 # --- パッケージのインストール（初回のみ） ---
-# install.packages("tidyverse")   # データ操作・可視化の統合パッケージ
+install.packages("tidyverse")   # データ操作・可視化の統合パッケージ
 
 # --- パッケージの読み込み（毎回必要） ---
 library(tidyverse)  # ggplot2, dplyr, tidyr などを一括読み込み
